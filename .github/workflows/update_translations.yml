@@ -3,13 +3,12 @@ name: Update Translations
 on:
   push:
     branches:
-      - crowdin_sync  # Вказати вашу основну гілку
+      - crowdin_sync  # Вказати основну гілку вашого репозиторію
     paths:
-      - /Crowdin/translated/*  # Шлях до CSV файлів
-      - /scripts/convert.py      # Шлях до твого скрипта
+      - Crowdin/translated/**  # Вказати шлях до папки з CSV файлами
 
 jobs:
-  update-translations:
+  convert-csv-to-lua:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,12 +26,12 @@ jobs:
 
       - name: Run conversion script
         run: |
-          python scripts/convert.py  # Змінити на актуальне ім'я та шлях скрипту
+          python converter.py  # Вказати правильний шлях до скрипта
 
       - name: Commit and push changes
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add path/to/your/output/translations/*.lua  # Додати шлях до Lua файлів
-          git commit -m "Convert CSV to Lua"
+          git add .  # Додає всі зміни у проекті
+          git commit -m "Automated Lua file update"
           git push
