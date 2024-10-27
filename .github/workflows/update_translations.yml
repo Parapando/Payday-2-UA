@@ -26,12 +26,14 @@ jobs:
 
       - name: Run conversion script
         run: |
-          python converter.py  # Вказати правильний шлях до скрипта
+          python scripts/convert.py  # Вказати правильний шлях до скрипта
 
       - name: Commit and push changes
+        env:
+          TOKEN: ${{ secrets.ACTIONS_PAT }}
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add .  # Додає всі зміни у проекті
+          git add .
           git commit -m "Automated Lua file update"
-          git push
+          git push https://x-access-token:${TOKEN}@github.com/Parapando/Payday-2-UA.git HEAD:main
