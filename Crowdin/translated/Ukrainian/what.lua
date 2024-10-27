@@ -1,4 +1,6 @@
 return {
-	whatthesigma = "skibidi royale",
-	whatthesigma2 = "bruh",
+    -- whatthesigma
+    whatthesigma = "skibidi royale",
+    -- whatthesigma2
+    whatthesigma2 = "bruh",
 	}
