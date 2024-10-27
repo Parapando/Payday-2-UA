@@ -2,4 +2,4 @@ files:
   - source: /Crowdin/
     translation: /Ukrainian Localization/loc/text/%original_file_name%
     multilingual: 1
-    scheme: 'identifier,translation'
+    scheme: 'identifier,source_or_translation'
