@@ -2,7 +2,7 @@ name: Create PAYDAY mod release
 
 on:
   workflow_run:
-    workflows: ["Update Translations"]
+    workflows: [update_translations.yml]
     types:
       - completed
 
