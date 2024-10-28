@@ -1,6 +1,5 @@
 import csv
 import os
-import shutil
 
 
 def csv_to_lua(csv_file, lua_file):
@@ -12,9 +11,12 @@ def csv_to_lua(csv_file, lua_file):
             for row in reader:
                 if row and len(row) > 1:
                     key = row[0].strip().strip('"')
-                    value = row[1].strip().strip('"')
+                    value = row[1].strip()
+
+                    value = value.replace('"', "''")
+
                     lua_f.write(f'	{key} = "{value}",\n')
-            lua_f.write("	}\n")
+            lua_f.write("	}")
 
 
 def convert_and_move_files(input_directory, output_directory):
