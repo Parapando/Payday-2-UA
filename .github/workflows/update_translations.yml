@@ -36,4 +36,4 @@ jobs:
           git config --local user.email "actions@github.com"
           git add .
           git commit -m "Automated Lua file update"
-          git push "https://${TOKEN}@github.com/Parapando/Payday-2-UA.git" HEAD:main
+          git push "https://${TOKEN}@github.com/Parapando/Payday-2-UA.git" HEAD:crowdin_sync
