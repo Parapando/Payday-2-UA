@@ -275,8 +275,7 @@ return {
 	dialog_too_low_level = "Your reputation is too low to join this server.",
 	dialog_too_low_level_ovk145 = "OVERKILL 145+ cannot be played with people below reputation level 145.",
 	dialog_tradable_drill_amount = "$amount;x $item;",
-	dialog_tradable_drills_converted = "The following drills are being exchanged for safes of the same type. You will recive 1x safe for every 1x drill you have.$NL;
-Please stand by.$NL;$list;",
+	dialog_tradable_drills_converted = "The following drills are being exchanged for safes of the same type. You will recive 1x safe for every 1x drill you have.$NL;Please stand by.$NL;$list;",
 	dialog_transaction_successful = "TRANSACTION SUCCESSFUL",
 	dialog_unlock_infamyitem = "You are about to unlock $item; item.$NL;$NL;It will cost $points; out of $remaining_points; points.",
 	dialog_unlock_skill_switch = "You are about to unlock a new skill set.$NL;$NL;$cost_text;",
