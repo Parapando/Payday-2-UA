@@ -14,7 +14,7 @@ return {
 	--1b4cadf7d089a961 = "Cosmetic",
 	--1cb4c8ffa2bcd7d3 = "KA54 Bull Stopper Addons",
 	--1d3b6f43d8c228b4 = "Don't hide your prosperity. Let the world see your glistening triumph. True friends will praise you, and jealousy will consume the rest.",
-	--1d8607cc8903ef4a = "Heretic",
+	--1d8607cc8903ef4a = "Єретик",
 	--1dc41f40fa807da7 = "Bull Rider",
 	--1e098ceb8255e8cb = "Offworld Exclusive Set",
 	--1e802cfbb995d128 = "The night comes in many shades. With this BDU, you'll blend in with all of them.",
