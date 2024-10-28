@@ -178,7 +178,7 @@ return {
 	ch_dual_tripmine_hl = "Two guys went on a Trip",
 	ch_duck_hunting = "Complete the GREEN BRIDGE on hard or OVERKILL difficulty. To complete this challenge, you will have to have played the heist from the start.",
 	ch_duck_hunting_hl = "A bridge too far!",
-	ch_eagle_eyes = "Point out a special enemy using the ''shout out'' command.",
+	ch_eagle_eyes = "Point out a special enemy using the shout out" command.",
 	ch_eagle_eyes_hl = "Eagle eyes",
 	ch_fall_to_bleed_out = "Go into bleedout from fall damage.",
 	ch_fall_to_bleed_out_hl = "I've fallen - and I can't get up!",
