@@ -54,7 +54,9 @@ jobs:
     - name: Hash mod and create mod meta file
       id: create_meta_file
       run: |
-         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./Ukrainian Localization").Substring(17)) > ./meta.json
+         $hash_value = $(./.github/hash.exe "./Ukrainian Localization").Substring(17)
+         echo "MOD_HASH=$hash_value" >> $GITHUB_ENV
+         $(cat .\.github\meta.json).Replace("%HASH%", $hash_value) > ./meta.json
 
     - name: Upload meta file to Release
       id: upload-meta-asset 
