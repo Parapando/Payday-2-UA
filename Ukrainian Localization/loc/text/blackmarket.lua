@@ -148,7 +148,7 @@ return {
 	a461c95e9140e849 = "Large Magazine",
 	a619a01f31450e60 = "Tuunbaq Scope x4.5 /",
 	a6cdadf047399e1a = "Sylux Iron Sight",
-	a777c8693968acf0 = "Good Deal",
+	a777c8693968acf0 = "Хороша угода",
 	aa45c0d7c1e54477 = "Create a Starbreeze Nebula account to unlock!",
 	ab34f7e8bcbdb603 = "Bounty Stock",
 	ac39365216ec257c = "When you're on the losing side of a battle, you've got two options. You can throw up your hands and surrender, or you can keep shooting. Jesse James chose the latter. Rather than wave the white flag, he went from war criminal to flat-out criminal, and the Wild West was his battlefield. Say what you will about this marauding, murdering scoundrel; he never gave up. Never surrendered.",
