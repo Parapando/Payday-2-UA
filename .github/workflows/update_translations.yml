@@ -3,9 +3,9 @@ name: Update Translations
 on:
   push:
     branches:
-      - crowdin_sync  # Вказати основну гілку вашого репозиторію
+      - crowdin_sync
     paths:
-      - Crowdin/translated/**  # Вказати шлях до папки з CSV файлами
+      - Crowdin/translated/**
 
 jobs:
   convert-csv-to-lua:
@@ -26,7 +26,7 @@ jobs:
 
       - name: Run conversion script
         run: |
-          python converter.py  # Вказати правильний шлях до скрипта
+          python converter.py
 
       - name: Commit and push changes
         env:
@@ -36,4 +36,4 @@ jobs:
           git config --local user.email "actions@github.com"
           git add .
           git commit -m "Automated Lua file update"
-          git push https://x-access-token:${TOKEN}@github.com/Parapando/Payday-2-UA.git HEAD:main
+          git push "https://${TOKEN}@github.com/Parapando/Payday-2-UA" HEAD:main
