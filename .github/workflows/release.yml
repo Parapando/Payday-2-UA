@@ -1,22 +1,19 @@
 name: Create PAYDAY mod release
-
 on:
   push:
-    branches: [ crowdin_sync ]
-  pull_request:
-    branches: [ crowdin_sync ]
-
+    branches:
+      - crowdin_sync
+    paths:
+      - 'Ukrainian Localization/**'
 jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: crowdin_sync
-
     - name: Wait for 3 minutes
-      run: sleep 10
+      run: sleep 180
 
+    - uses: actions/checkout@master
+    
     - name: Delete Existing Release
       uses: ame-yu/action-delete-latest-release@v2
       with:
