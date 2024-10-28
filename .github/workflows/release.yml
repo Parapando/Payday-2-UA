@@ -1,22 +1,32 @@
 name: Create PAYDAY mod release
+
 on:
   push:
     branches: [ crowdin_sync ]
   pull_request:
     branches: [ crowdin_sync ]
+
 jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
+      with:
+        ref: crowdin_sync
+
+    - name: Wait for 3 minutes
+      run: sleep 10
+
     - name: Delete Existing Release
       uses: ame-yu/action-delete-latest-release@v2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Archive Mod
       run: |
          .\.github\7za.exe -tzip a ".\pd2_ualoc.zip" ".\Ukrainian Localization"
       shell: powershell
+
     - name: Create New Release
       id: create_release
       uses: actions/create-release@v1
@@ -29,6 +39,7 @@ jobs:
         prerelease: false
         body: |
           This release zip is automatically updated on every push. You can ignore the "x commits behind" message.
+
     - name: Upload Mod Zip to Release
       id: upload-release-asset 
       uses: actions/upload-release-asset@v1
@@ -39,12 +50,12 @@ jobs:
         asset_path: ./pd2_ualoc.zip
         asset_name: pd2_ualoc.zip
         asset_content_type: application/zip
+
     - name: Hash mod and create mod meta file
       id: create_meta_file
       run: |
-         $hash_value = $(./.github/hash.exe "./Ukrainian Localization").Substring(17)
-         echo "MOD_HASH=$hash_value" >> $GITHUB_OUTPUT
-         $(cat .\.github\meta.json).Replace("%HASH%", $hash_value) > ./meta.json
+         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./Ukrainian Localization").Substring(17)) > ./meta.json
+
     - name: Upload meta file to Release
       id: upload-meta-asset 
       uses: actions/upload-release-asset@v1
