@@ -3,8 +3,8 @@ name: Update Translations
 on:
   push:
     paths:
-      - 'Crowdin/translated/**'  # Змінити на шлях до файлів CSV
-      - 'converter.py'  # Змінити на шлях до вашого Python скрипта
+      - 'Crowdin/translated/**'
+      - 'converter.py'
 
 jobs:
   update_translations:
@@ -22,10 +22,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas  # або інші бібліотеки, які можуть знадобитися
+        pip install pandas
 
     - name: Run translation script
-      run: python converter.py  # Змінити на шлях до вашого Python скрипта
+      run: python converter.py
 
     - name: Commit and push changes
       env:
