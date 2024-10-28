@@ -26,14 +26,14 @@ jobs:
 
       - name: Run conversion script
         run: |
-          python converter.py
+          python convert.py
 
       - name: Commit and push changes
         env:
-          TOKEN: ${{ secrets.ACTIONS_PAT }}
+          TOKEN: ${{secrets.ACTIONS_PAT}}
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add .
           git commit -m "Automated Lua file update"
-          git push "https://${TOKEN}@github.com/Parapando/Payday-2-UA" HEAD:main
+          git push "https://${TOKEN}@github.com/Parapando/Payday-2-UA.git" HEAD:main
