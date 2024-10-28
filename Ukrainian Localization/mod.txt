@@ -10,7 +10,7 @@
 	"updates" : [
 		{ 
 			"identifier" : "payday2_ualoc",
-			"host" : { "meta" : "https://github.com/gabsF/payday2_translate_brazilian/releases/download/pd2translationbrazilian/meta.json", }
+			"host" : { "meta" : "https://github.com/Parapando/Payday-2-UA/releases/download/pd2_ualoc/meta.json", }
 		}
 	]
 	"hooks" : [
