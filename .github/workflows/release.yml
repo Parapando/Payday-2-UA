@@ -1,10 +1,10 @@
 name: Create PAYDAY mod release
 
 on:
-  push:
-    branches: [ crowdin_sync ]
-  pull_request:
-    branches: [ crowdin_sync ]
+  workflow_run:
+    workflows: ["Update Translations"]
+    types:
+      - completed
 
 jobs:
   build:
@@ -13,9 +13,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: crowdin_sync
-
-    - name: Wait for 3 minutes
-      run: sleep 180
 
     - name: Delete Existing Release
       uses: ame-yu/action-delete-latest-release@v2
