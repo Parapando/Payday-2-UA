@@ -1,6 +1,6 @@
 return {
 	--110b236af7284480 = "Press $BTN_INTERACT; to analyze the oil sample",
-	--1226059b3c479470 = "Steal the Neo-2",
+	--1226059b3c479470 = "Викрадіть Нео-2",
 	--13a1e474730817c8 = "The display case is under lockdown. Breach the security shutters with a saw.",
 	--1540d4a07db54bb7 = "Return to the carbon-capture prototype's location.",
 	--15d03b8c9189ce32 = "Bagging the research documents",
