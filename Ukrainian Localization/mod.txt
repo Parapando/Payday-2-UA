@@ -1,0 +1,20 @@
+{
+	"name" : "Українська локалізація тексту",
+	"description" : "Українська локалізація тексту PAYDAY 2 від Parapando. Переклад під'єднано до сторінки Crowdin, зміни на якій прямо впливають на переклад в грі. Долучитися до перекладу можна через той самий Crowdin, знайти його можна в посібнику української локалізації PAYDAY 2 в профілі автору перекладу.",
+	"image" : "icon.png",
+	"color" : "255 222 33",
+	"author" : "Parapando",
+	"contact" : "https://steamcommunity.com/id/parapando/",
+	"version" : "0.1",
+	"blt_version" : 2,
+	"updates" : [
+		{ 
+			"identifier" : "payday2_ualoc",
+			"host" : { "meta" : "https://github.com/Parapando/Payday-2-UA/releases/download/pd2_ualoc/meta.json", }
+		}
+	]
+	"hooks" : [
+		{ "hook_id" : "lib/utils/levelloadingscreenguiscript", "script_path" : "loc/scripts/LevelLoadingScreenGuiScript.lua" },
+		{ "hook_id" : "lib/utils/lightloadingscreenguiscript", "script_path" : "loc/scripts/LightLoadingScreenGuiScript.lua" },
+	]
+}
