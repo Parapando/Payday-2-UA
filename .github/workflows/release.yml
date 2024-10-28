@@ -4,7 +4,7 @@ on:
     branches:
       - crowdin_sync
     paths:
-      - 'Ukrainian Localization/**'
+      - '/Ukrainian Localization/**'
 jobs:
   build:
     runs-on: windows-latest
