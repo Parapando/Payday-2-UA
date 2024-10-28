@@ -15,7 +15,7 @@ jobs:
         ref: crowdin_sync  # Змінено з master на crowdin_sync
 
     - name: Wait for 3 minutes
-      run: sleep 180  # 180 секунд = 3 хвилини
+      run: sleep 10  # 180 секунд = 3 хвилини
 
     - name: Delete Existing Release
       uses: ame-yu/action-delete-latest-release@v2
