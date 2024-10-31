@@ -4847,7 +4847,7 @@ return {
 	hud_roberts_mission14_hl = "Assemble the cage",
 	hud_roberts_mission15 = "Throw a bag over the yellow wall by the auto repair shop.",
 	hud_roberts_mission15_hl = "Give a bag to the blackmailer",
-	hud_roberts_mission1_hl = "Find the vault keycards",
+	hud_roberts_mission1_hl = "Знайдіть картки від сховища",
 	hud_roberts_mission2 = "Use the keycards on the card readers to open up the vault.",
 	hud_roberts_mission2_hl = "Open the vault",
 	hud_roberts_mission3 = "Wait for the timelock to open the vault. Keep an eye out on the timer.",
