@@ -123,7 +123,7 @@ return {
 	achievement_axe_14 = "Fire Sale",
 	achievement_axe_14_additional = "Це досягнення вимагає, щоб ви грали від лобі до кінця пограбування. Ви можете активувати механіку One Down на екрані покупки контракту.",
 	achievement_axe_14_desc = "Complete the Jewelry Store job on the Death Sentence difficulty with the One Down mechanic activated.",
-	achievement_axe_15 = "Bag Throwing Simulator",
+	achievement_axe_15 = "Симулятор скидування сумок",
 	achievement_axe_15_additional = "Це досягнення вимагає, щоб ви грали від лобі до кінця пограбування. Ви можете активувати механіку One Down на екрані покупки контракту.",
 	achievement_axe_15_desc = "Complete the Diamond Store job on the Death Sentence difficulty with the One Down mechanic activated.",
 	achievement_axe_16 = "The Global Elite",

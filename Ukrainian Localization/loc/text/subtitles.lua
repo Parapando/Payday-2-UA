@@ -18125,7 +18125,7 @@ return {
 	pln_moon_22_02 = "Helicopter will be here in one minute.",
 	pln_moon_22_03 = "Just a minute for the helicopter.",
 	pln_moon_23_01 = "Put the loot in the Christmas tree!",
-	pln_moon_23_02 = "Throw the loot into the tree!",
+	pln_moon_23_02 = "Закиньте здобич на дерево!",
 	pln_moon_23_03 = "The Christmas tree - that's where the loot goes!",
 	pln_moon_24_01 = "Alright you got it, now put it in the tree.",
 	pln_moon_24_02 = "Ви отримали пакунок, тепер заховайте його на дереві.",
