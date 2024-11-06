@@ -223,7 +223,7 @@ return {
 	dialog_npcommerce_fail_open = "FAILED INITIALIZING PlayStation®Store",
 	dialog_npcommerce_need_install = "To play the full version, you will need to restart the game after the installation is completed.",
 	dialog_npcommerce_opening = "INITIALIZING PlayStation®Store",
-	dialog_ok = "Ok",
+	dialog_ok = "Ок",
 	dialog_on_server_left_message_cs = "$message;$NL;Your Crime Spree is still active, but your rank has not changed.$NL;$NL;You will now be returned to the main menu.",
 	dialog_parental_control = "Онлайн-сервіс відключено на вашому обліковому записі Sony Entertainment Network через обмеження батьківського контролю.",
 	dialog_pda9_event_text = "Payday 2 is celebrating an anniversary! You know what that means...PIGGY BANK STUFF!$NL;$NL;You'll find the Piggy Bank in any heist on this event's Crime.net page. Usually hanging out near the beginning or end of the heist, on rooftops, and any wide-open spaces. Pay the Piggy as many Piggy Bucks as you can to make it grow, then break the Bank and escape to earn a ton of XP! The Piggy can grow up to five stages, based on how much you pay it. The bigger the Piggy, the more XP you'll earn!$NL;$NL;But where can you find Piggy Bucks, you ask? Easy! Kill enemies with headshots or the Cash Blaster to make them drop those shiny golden bags. You can earn them through normal kills as well, but they'll appear much less often. The Piggy Bucks will disappear if you don't grab them after ten seconds, so move fast!$NL;$NL;There's no limit to the number of times you can play a Piggy heist, and when it's complete, your total XP is doubled. Plus, you can earn even more XP through Piggy-related Side Jobs.$NL;$NL;Now, get out there and make that Piggy proud!",
