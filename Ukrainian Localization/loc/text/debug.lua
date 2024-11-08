@@ -17,7 +17,7 @@ return {
 	debug_corrupt_save = "[Пошкоджено файл збереження]",
 	debug_damage_multiplier = "Множник шкоди",
 	debug_debug_font_draw_text = "@ £ $ () % ^ < } ´ W$BTN_INV_NEW;W$BTN_GHOST;W$BTN_SKULL;W $NL;_the $BTN_BACK;quick $BTN_START;brown $BTN_A;fox $BTN_TOP_L;jumps $BTN_BOTTOM_L;over $BTN_STICK_L;the $BTN_INTERACT;lazy $BTN_RELOAD;dog $BTN_GADGET; j g y",
-	debug_doctor_bag = "Медичний мішок",
+	debug_doctor_bag = "Медичний набір",
 	debug_equipment_armor_kit = "Кейс із бронею",
 	debug_equipment_blood_sample = "ЗРАЗОК КРОВІ",
 	debug_equipment_blood_sample_valid = "ДІЙСНИЙ ЗРАЗОК КРОВІ",

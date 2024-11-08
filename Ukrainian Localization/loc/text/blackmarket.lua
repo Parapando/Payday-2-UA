@@ -1252,7 +1252,7 @@ return {
 	bm_melee_topaz = "Ice Pick",
 	bm_melee_twins = "Okinawan Style Sai",
 	bm_melee_twins_desc = "Used by Okinawan Law enforcers, the Sai could be offensive and defensive, and when heisting it's an perfect tool for dealing out quick blows to any opposition.",
-	bm_melee_weapon = "Приклад",
+	bm_melee_weapon = "Кольба",
 	bm_melee_weapon_desc = "In armed robberies, beating the victims with firearms is usually more common than to shoot or stab them. You usually either Buttstroke someone with a rifle or Pistol-whip them with a handgun.$NL;$NL;This is the quickest melee attack.",
 	bm_melee_whiskey = "Rivertown Glen Bottle",
 	bm_melee_wing = "Wing Butterfly Knife",
