@@ -1961,7 +1961,7 @@ return {
 	menu_combat_engineering_desc = "BASIC: ##$basic;##$NL;The radius of your trip mine explosion is increased by ##$multibasic;##.$NL;$NL;ACE: ##$pro;##$NL;Your trip mine damage is increased by ##$multipro;##.",
 	menu_combat_medic = "Combat Medic",
 	menu_combat_medic_beta = "Combat Medic",
-	menu_combat_medic_beta_desc = "БАЗОВА: ##$basic;##$NL;Ви отримуєте зменшення шкоди на ##$multibasic;## протягом ##$multibasic2;## секунд як після, так і під час оживлення іншого гравця.$NL;$NL;АС: ##$pro;##$NL;Оживлення члена екіпажу дає йому на ##$multipro;## більше здоров’я.",
+	menu_combat_medic_beta_desc = "БАЗОВА: ##$basic;##$NL;Ви отримуєте зменшення шкоди на ##$multibasic;## протягом ##$multibasic2;## секунд як після, так і під час оживлення іншого гравця.$NL;$NL;АС: ##$pro;##$NL;Оживлення члена команди дає йому на ##$multipro;## більше здоров’я.",
 	menu_combat_medic_desc = "BASIC: ##$basic;##$NL;After you have revived a crew member, you receive a ##$multibasic;## damage bonus for ##$multibasic2;## seconds.$NL;$NL;ACE: ##$pro;##$NL;Reviving a crew member gives them ##$multipro;## more health.",
 	menu_community_challenges_active_bonus = "Total exp bonus: $bonus;%",
 	menu_community_challenges_exp_bonus = "Community bonus",
