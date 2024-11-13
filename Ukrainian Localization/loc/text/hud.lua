@@ -1,5 +1,5 @@
 return {
-	--110b236af7284480 = "Press $BTN_INTERACT; to analyze the oil sample",
+	--110b236af7284480 = "Натисніть $BTN_INTERACT щоб проаналізувати зразок нафти",
 	--1226059b3c479470 = "Викрадіть Нео-2",
 	--13a1e474730817c8 = "The display case is under lockdown. Breach the security shutters with a saw.",
 	--1540d4a07db54bb7 = "Return to the carbon-capture prototype's location.",
@@ -12,7 +12,7 @@ return {
 	--1a33d68bc1be353b = "Defend the pump generator",
 	--1c14b73dfce407db = "Locke needs to override the security network before we can alter the transfer schedule. The server room requires a keycard to open. One of the SERA employees should have it.",
 	--1e193fa04a2d1af2 = "Moving ladder",
-	--1f912808ce005c20 = "Destroy the server",
+	--1f912808ce005c20 = "Знищіть сервер",
 	--2005c0443019d25f = "Press $BTN_INTERACT; to cancel interaction (will trigger the alarm)",
 	--2031a70dcb729a92 = "AP Rounds",
 	--2053cf256fa87179 = "Opening door",
