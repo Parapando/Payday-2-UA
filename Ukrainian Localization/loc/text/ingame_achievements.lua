@@ -59,7 +59,7 @@ return {
 	achievement_ameno_2_desc = "In the Nightclub job, have 12 hostages or more on the dance floor when you escape.",
 	achievement_ameno_2_unlock = "Unlocks the ''Aluminum Grip'' for the AK weapon family, the ''Aluminum Foregrip'' for the Krinkov submachine gun and the ''LW Upper Receiver'' for the CAR weapon family.",
 	achievement_ameno_3 = "$1.8M Speedrun",
-	achievement_ameno_3_additional = "This achievement can only be completed on the OVERKILL difficulty.",
+	achievement_ameno_3_additional = "Це досягнення можна виконати лише на складності OVERKILL.",
 	achievement_ameno_3_desc = "In the Mallcrasher job, loot $1,800,000 in loose cash within 50 seconds of starting the heist. The heist must be played on the OVERKILL difficulty.",
 	achievement_ameno_3_unlock = "Unlocks the ''Scope Mount'' and ''PBS Suppressor'' for the AK weapon family, ''Alfred'' mask, ''Dawn'' material and ''Dinosaur Skull'' pattern.",
 	achievement_ameno_4 = "Ось і потяг болю",
