@@ -4322,7 +4322,7 @@ return {
 	menu_l_lootscreen = "PAYDAY",
 	menu_l_max_quality = "Max quality: $quality;",
 	menu_l_quality = "Quality: $quality;",
-	menu_l_value_sbzac2_unlock = "Create a Starbreeze Nebula account to unlock!",
+	menu_l_value_sbzac2_unlock = "Створіть обліковий запис Starbreeze Nebula для розблокування!",
 	menu_l_waiting_for_all = "Чекаємо, поки всі виберуть карту!",
 	menu_l_waiting_for_cards = "Waiting for cards...",
 	menu_l_you_got = "Got a $category;:$NL;$item;",
