@@ -198,7 +198,7 @@ return {
 	dialog_mp_send_invite_message = "Do you wish to send a game invite to $FRIEND;?",
 	dialog_mp_send_invite_title = "Send game invite",
 	dialog_mp_vote_kick_message = "Було ініційовано голосування за вигнання $name; з гри. Голосування завершиться через $time; секунд.",
-	dialog_mp_vote_kick_response_title = "Vote Kick",
+	dialog_mp_vote_kick_response_title = "Голосувати за Вигнання",
 	dialog_mp_vote_kick_unknown_message = "A vote has been initiated to kick someone currently connecting. The vote will end in $time; seconds.",
 	dialog_mp_vote_restart_message = "A vote has been initiated to restart. The vote will end in $time; seconds.",
 	dialog_mp_vote_restart_response_title = "Vote Restart",
