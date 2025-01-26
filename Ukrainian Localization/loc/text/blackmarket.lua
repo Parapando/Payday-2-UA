@@ -988,7 +988,7 @@ return {
 	bm_grenade_frag_desc = "The frag grenade is a concept that has changed little from its inception. It is a thrown casing that explodes, sending shards and splinters away with such force they can slice through flesh, bone and light armor. Cheap and effective.",
 	bm_grenade_molotov = "Molotov Cocktail",
 	bm_grenade_molotov_desc = "The Molotov cocktail is perhaps the simplest weapon that can call itself a grenade. Nothing more than a breakable bottle of flammable liquid with a 'fuse' replaced by a burning rag. It is cheap, simple and highly effective.",
-	bm_grenade_pocket_ecm_jammer = "Pocket ECM Device",
+	bm_grenade_pocket_ecm_jammer = "Кишеньковий ECM Пристрій",
 	bm_grenade_pocket_ecm_jammer_desc = "A small device for intercepting and overriding nearby encrypted signals. With sophisticated algorithms for sniffing out and disrupting wireless data, the Pocket ECM Device gives the user an edge both while hiding in the shadows and in the heat of combat.",
 	bm_grenade_poison_gas_grenade = "Viper Grenade",
 	bm_grenade_poison_gas_grenade_desc = "Craving a chemical weapon that's equal parts deadly and compact? Look no further! This highly-illegal grenade, though limited in explosive radius, will emit a sweeping cloud of toxic gas that puts the power of the viper into the palm of your hand. Your enemies can kiss their respiratory systems goodbye.",
