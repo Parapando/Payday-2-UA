@@ -3353,7 +3353,7 @@ return {
 	menu_ecp_male = "Ітан",
 	menu_edit_game_settings = "РЕДАГУВАТИ НАЛАШТУВАННЯ ГРИ",
 	menu_edit_game_settings_help = "Set join permissions for the game.",
-	menu_effect_quality = "Effect quality",
+	menu_effect_quality = "Якість ефектів",
 	menu_effect_quality_help = "Adjusts the quality of effects in the game.",
 	menu_end_crime_spree = "Abandon Crime Spree",
 	menu_end_game = "ВИЙТИ ДО ГОЛОВНОГО МЕНЮ",
