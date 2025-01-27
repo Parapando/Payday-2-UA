@@ -3368,7 +3368,7 @@ return {
 	menu_equilibrium_desc = "BASIC: ##$basic;##$NL;Increases your accuracy with pistols by ##$multibasic;## and increases the speed to pull and put away pistols by ##$multibasic2;##.$NL;$NL;ACE: ##$pro;##$NL;Increases your rate of fire with pistols by ##$multipro;##.",
 	menu_equip = "Екіпірувати",
 	menu_equipment_armor_kit = "Сумка із Бронею",
-	menu_equipment_bodybags_bag = "Body Bag Case",
+	menu_equipment_bodybags_bag = "Кейс з Мішками для Трупів",
 	menu_equipment_ecm_jammer = "Радіоелектронний глушник",
 	menu_equipment_first_aid_kit = "Аптечка Першої Допомоги",
 	menu_equipment_grenade_crate = "Ordnance Bag",
