@@ -6878,7 +6878,7 @@
 "st_menu_infamy_secret","Unavailable"
 "st_menu_infamy_secret_desc","This tier of the Infamy tree is currently locked. It will be updated continuously during the lifetime of PAYDAY 2."
 "st_menu_mastermind","МАНІПУЛЯТОР"
-"st_menu_mastermind_dominate","Controller"
+"st_menu_mastermind_dominate","Контролер"
 "st_menu_mastermind_inspire","Медик"
 "st_menu_mastermind_single_shot","Sharpshooter"
 "st_menu_max_perk_dialog_text","Maximize the perk deck: $perk_deck_name;$NL;It costs $point_cost; perk points to make $perk_tier; out of $max_tier; cards unlocked.$NL;Currently $current_tier; out of $max_tier; unlocked."
