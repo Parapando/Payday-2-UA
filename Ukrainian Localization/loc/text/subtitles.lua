@@ -20556,7 +20556,7 @@ return {
 	pln_ukranian_stage1_50_any_02 = "Ось воно! Нарешті!",
 	pln_ukranian_stage1_50_any_03 = "OK, that's the tiara!",
 	pln_ukranian_stage1_51_any_01 = "The escape van is ready, go when you're good!",
-	pln_ukranian_stage1_52_any_01 = "Чудово! Це додаткові гроші для нас, випивка за мій рахунок!",
+	pln_ukranian_stage1_52_any_01 = "Чудово! Це додаткові гроші для нас, випивка моїм коштом!",
 	pln_ukranian_stage1_52_any_02 = "All the extra loot goes into all the pockets. The more, the better!",
 	pln_ukranian_stage1_52_any_03 = "Більше здобичі, ніж я очікував. Гарна робота!",
 	pln_ukranian_stage1_52_any_04 = "Serious haul. You guys did well!",
