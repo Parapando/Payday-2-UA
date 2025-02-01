@@ -271,7 +271,7 @@ return {
 	dialog_telemetry_toggle = "Увімкнути телеметрію",
 	dialog_texas_heat_drop_name = "Texas Heat",
 	dialog_the_host_has_left_the_game = "Хост покинув гру",
-	dialog_the_host_has_left_the_game_cs = "The host has left the game. Your Crime Spree is still active, but your level has not changed.$NL;$NL;You will now be returned to the main menu.",
+	dialog_the_host_has_left_the_game_cs = "Хост покинув гру. Ваша Серія Злочинів все ще активна, але ваш рівень не змінився.$NL;$NL;Вас буде повернуто до головного меню.",
 	dialog_too_low_level = "Your reputation is too low to join this server.",
 	dialog_too_low_level_ovk145 = "OVERKILL 145+ cannot be played with people below reputation level 145.",
 	dialog_tradable_drill_amount = "$amount;x $item;",
