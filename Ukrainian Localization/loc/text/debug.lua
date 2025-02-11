@@ -104,7 +104,7 @@ return {
 	debug_interact_equiptment_sample_validation = "Принесіть зразок крові",
 	debug_interact_free = "Утримуйте $BTN_INTERACT;, щоб врятувати напарника",
 	debug_interact_free_PS3 = "Утримуйте $BTN_INTERACT;, щоб Врятувати вашого напарника",
-	debug_interact_gage_assignment_take = "Утримуйте $BTN_INTERACT;, щоб підібрати пакунок",
+	debug_interact_gage_assignment_take = "УТРИМУЙТЕ $BTN_INTERACT;, ЩОБ ПІДІБРАТИ ПАКУНОК",
 	debug_interact_gas = "Натисніть $BTN_INTERACT;, щоб розлити бензин",
 	debug_interact_gas_PS3 = "Натисніть $BTN_INTERACT;, щоб розлити бензин",
 	debug_interact_gen_pku_loot_take = "Натисніть $BTN_INTERACT; щоб забрати здобич",
