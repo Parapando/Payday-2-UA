@@ -520,5 +520,5 @@ return {
 	rb14_mad_cbf_01_01 = "This dirty Russian organization is conducting some very disturbing experiments from a hidden laboratory in Russia. You won't believe what shit they're doing over there. We need to fuckin' stop Akan from getting his hands on the data, yeah? It's do or die, boys and girls.$NL;$NL;» Enter the compound$NL;» Gain access to the lab$NL;» Obtain the data$NL;» Escape",
 	rb14_mad_outro_01_01 = "We fuckin' did it, lads! We stopped that white-haired fucking freak from getting the data he was after. So, what do you say? What do you say? We burn it, yeah? Burn it straight to fuckin' hell!",
 	russian_desc_codex = "Dallas is experienced, cunning and methodical. He has no problem working as a part of a team but he isn't the social kind. He will carry out his part in a plan perfectly and expects everyone else to do the same.",
-	spanish_desc_codex = "As a teenager, Chains always got into trouble. After years of jumping between foster homes and juvenile institutions, he ended up in the military. There he became an excellent soldier.",
+	spanish_desc_codex = "Бувши підлітком, Чейнс постійно потрапляв у неприємності. Після років перебування між прийомними родинами та виховними установами він зрештою опинився в армії. Там він став відмінним солдатом.",
 	}
