@@ -5479,7 +5479,7 @@ return {
 	uno_device_hint_f5ca073a7fb4d7fc = "NJW8O76QD6.WDP9O.WRZNMRPW8OKRDPW86OZOJ4NWU8O.RZOPW8O.ON.9OZOP7OWW692W8O6PMR4OPCOWNTO9N4NIW8OPOCIJWNZ692RKKW8O.NPT9OJJ",
 	uno_device_hint_ffb755e3d94dcdfd = "69W8OKNLRDJJWRPOKRPP692JN9.PNPOJWR9OJW8OKRDPW86OZOJWRRTOZOPIW8692RKZN7DO.OJM6WOW8OCOJWOKKRPWJRKW8O7N4",
 	vhl_bike_name = "Мотоцикл",
-	vhl_blackhawk_name = "Blackhawk",
+	vhl_blackhawk_name = "Чорний яструб",
 	vhl_falcogini_name = "Falcogini",
 	vhl_forklift_name = "Forklift",
 	vhl_golfcart_name = "Golf Cart",
