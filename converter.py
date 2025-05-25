@@ -15,11 +15,10 @@ def csv_to_lua(csv_file, lua_file):
 
                     value = value.replace('"', "''")
 
-                    value = value.replace('і', 'i').replace('ї', 'ï')
-
                     lua_f.write(f'	{key} = "{value}",\n')
             lua_f.write("	}")
 
+value = value.replace('і', 'i').replace('ї', 'ï')
 
 def convert_and_move_files(input_directory, output_directory):
     os.makedirs(output_directory, exist_ok=True)
