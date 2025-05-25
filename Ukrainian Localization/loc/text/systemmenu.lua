@@ -284,7 +284,7 @@ return {
 	dialog_unlock_skill_switch_spending = "Вартiсть: $spending; грошей.",
 	dialog_unlock_skill_switch_spending_offshore = "Вартiсть: $spending; грошей i $offshore; грошей офшор.",
 	dialog_unlock_skill_switch_title = "Ви впевненi?",
-	dialog_unlock_skilltree = "Ви збираєтеся почати $skill; дерево навичок.$NL;$NL;Це буде коштувати $cost; i $points; з $remaining_points; балiв.",
+	dialog_unlock_skilltree = "Ви збираєтеся почати нове $skill; дерево навичок.$NL;$NL;Це коштуватиме $cost; i $points; з $remaining_points; очок.",
 	dialog_unsuspend = "Цей набiр умiнь призупинено, ви можете скинути всi очки вмiнь, використанi в цьому наборi умiнь, щоб зробити його знову доступним для використання. Чи хочете ви скинути $Name;?",
 	dialog_unsuspend_title = "Вiдновити набiр умiнь",
 	dialog_use_default_keys_message = "Ви впевненi, що хочете скинути всi клавiшi до ïхнього стандартного стану?",
