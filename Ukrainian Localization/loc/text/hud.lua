@@ -4696,7 +4696,7 @@ return {
 	hud_int_talk_clover = "Натиснiть $BTN_INTERACT; щоб поговорити з Кловер",
 	hud_int_talk_dallas = "Натиснiть $BTN_INTERACT; щоб поговорити з Даллас",
 	hud_int_talk_dragan = "Натиснiть $BTN_INTERACT; щоб поговорити з Драґан",
-	hud_int_talk_dragon = "Натиснiть $BTN_INTERACT; щоб поговорити з Дзiро",
+	hud_int_talk_dragon = "Натиснiть $BTN_INTERACT; щоб поговорити з Джiро",
 	hud_int_talk_ecp_female = "Натиснiть $BTN_INTERACT; щоб поговорити з Хiла",
 	hud_int_talk_ecp_male = "Натиснiть $BTN_INTERACT; щоб поговорити з Ітан",
 	hud_int_talk_hoxton = "Натиснiть $BTN_INTERACT; щоб поговорити з Х’юстон",
