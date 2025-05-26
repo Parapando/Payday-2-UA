@@ -2349,7 +2349,7 @@ return {
 	bm_msk_outlandish_c = "Абсолютний незнайомець",
 	bm_msk_outlandish_c_desc = "Маска незнайомця на чужiй землi.$NL;$NL;Такi маски використовувалися у втраченiй цивiлiзацiï, у вiйнi, на солдатах; у ритуалах поховання i шаманських церемонiях, щоб вiдiгнати злих духiв.",
 	bm_msk_owl = "Расмус",
-	bm_msk_owl_desc = "Rasmus has an eye for secrets.$NL;$NL;Owls are nocturnal birds of prey. They are known for their large eyes in comparison to their skulls. They can't actually move their eyes, they swivel their heads instead and are able to swivel 270 degrees. Shit you didn't know, amirite.$NL;$NL;I don't know you!'' ''You're no guest of mine!''''",
+	bm_msk_owl_desc = "Rasmus has an eye for secrets.$NL;$NL;Owls are nocturnal birds of prey. They are known for their large eyes in comparison to their skulls. They can't actually move their eyes, they swivel their heads instead and are able to swivel 270 degrees. Shit you didn't know, amirite.$NL;$NL;''I don't know you!'' ''You're no guest of mine!''",
 	bm_msk_pachy = "Паччi",
 	bm_msk_pachy_desc = "Паччi — Пахiцефалозавр, що означає товстоголовий ящiр, насправдi нiколи не був таким товстоголовим. Вiн нiколи не брав собi це iм'я, iншi динозаври дали йому його через заздростi до його високих показникiв у розумi, духовностi та мудростi. Отримання плаща i чаклунського капелюха як другого призу на мiсцевому доiсторичному орфографiчному конкурсi не зробило це краще.",
 	bm_msk_pain = "Венґер",
