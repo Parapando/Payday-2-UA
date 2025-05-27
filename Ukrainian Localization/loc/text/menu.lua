@@ -3437,7 +3437,7 @@ return {
 	menu_es_safehouse_upgrade_available = "У вас достатньо монет, щоб покращити кiмнату!",
 	menu_es_skill_bonus = "Бонус навичок",
 	menu_es_skill_points_gained = "Отримано очок навичок:",
-	menu_es_skill_points_info = "Вiдвiдайте [$SKILL_MENU;] меню, щоб витратити новi заробленi очки!",
+	menu_es_skill_points_info = "Вiдвiдайте вiкно [$SKILL_MENU;], щоб витратити новi заробленi очки!",
 	menu_es_skirmish_cash = "Виплата викупу",
 	menu_es_stats_crew = "Статистика команди",
 	menu_es_stats_gage_assignment = "Пакунки",
