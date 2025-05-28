@@ -15,7 +15,7 @@ def csv_to_lua(csv_file, lua_file):
 
                     value = value.replace('"', "''")
 
-                    value = value.replace('і', 'i').replace('ї', 'ï')
+                    value = value.replace('і', 'i').replace('ї', 'ï').replace('є', 'э').replace('ґ', 'ъ')
 
                     lua_f.write(f'	{key} = "{value}",\n')
             lua_f.write("	}")
