@@ -1,10 +1,10 @@
 Hooks:PostHook(LightLoadingScreenGuiScript,"init","UALocalizationLightLoading",function(self)
-    local title_text = "В ПРОЦЕСІ"
+    local title_text = "ЗАЧЕКАЙТЕ"
 	self._title_text:set_text(title_text)
 end)
 
 Hooks:PostHook(LightLoadingScreenGuiScript,"setup","UALocalizationLightLoadingSetup",function(self)
-	local title_text = "В ПРОЦЕСІ"
+	local title_text = "ЗАЧЕКАЙТЕ"
 	self._title_text:set_text(title_text)
     self._title_text:set_font_size(32)
 	self._title_text:set_position(0, self._gui_tweak_data.border_pad)
