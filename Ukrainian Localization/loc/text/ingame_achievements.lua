@@ -899,7 +899,7 @@ return {
 	achievement_death_26 = "Тривалi вiдносини",
 	achievement_death_26_additional = "Це досягнення вимагаэ вiд вас грати вiд лобi до кiнця завдання.",
 	achievement_death_26_desc = "Виконайте всi контракти Bain зi складнiстю Жага смертi або вище.",
-	achievement_death_27 = "Трудно продовжити",
+	achievement_death_27 = "Важко продовжити",
 	achievement_death_27_additional = "Це досягнення вимагаэ вiд вас грати вiд лобi до кiнця завдання.",
 	achievement_death_27_desc = "Виконайте всi контракти зi складнiстю Важко або вище.",
 	achievement_death_27_unlock = "Unlocks ''The Hard Skull'' mask.",
