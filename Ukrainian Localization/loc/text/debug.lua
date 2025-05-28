@@ -160,7 +160,7 @@ return {
 	debug_interact_saw_jammed_PS3 = "Утримуйте $BTN_INTERACT; щоб перезавести пилу",
 	debug_interact_search_key = "Утримуйте $BTN_INTERACT; для пошуку ключа",
 	debug_interact_search_key_PS3 = "Утримуйте $BTN_INTERACT; для пошуку ключа",
-	debug_interact_security_station = "Утримуйте $BTN_INTERACT; щоб запустити злом.",
+	debug_interact_security_station = "Утримуйте $BTN_INTERACT; щоб запустити злам.",
 	debug_interact_security_station_jammed = "Утримуйте $BTN_INTERACT;, щоб продовжити",
 	debug_interact_sentry_gun_reload = "Утримуйте $BTN_INTERACT; для перезаряджання турелi$NL;( Залишилося боэприпасiв: $AMMO; )",
 	debug_interact_sewer_manhole = "Утримуйте $BTN_INTERACT; щоб вiдкрити люк.",
