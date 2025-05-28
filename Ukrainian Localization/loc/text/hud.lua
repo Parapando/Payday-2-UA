@@ -4713,7 +4713,7 @@ return {
 	hud_int_talk_vlad = "Натиснiть $BTN_INTERACT; щоб поговорити з Владi",
 	hud_int_talk_wild = "Натиснiть $BTN_INTERACT; щоб поговорити з Раст",
 	hud_int_talk_wolf = "Натиснiть $BTN_INTERACT; щоб поговорити з Вовк",
-	hud_int_tape_loop = "Утримуйте $BTN_INTERACT; щоб застосувати петлю камери",
+	hud_int_tape_loop = "Утримуйте $BTN_INTERACT; щоб зациклити зображення на камерi",
 	hud_int_timelock_numpad = "Натиснiть $BTN_INTERACT; щоб розпочати тайм-лок",
 	hud_int_timelock_panel = "Натиснiть $BTN_INTERACT; щоб використати картку",
 	hud_int_timelock_panel_no_keycard = "Вам потрiбна картка, щоб вiдкрити сховище",
