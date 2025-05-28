@@ -187,7 +187,7 @@ return {
 	intro_hospital72 = "ВУЛЬФ: Так, так, так. Починаймо план!",
 	intro_hospital73 = "БЕЙН: Отож...",
 	intro_hospital74 = "НЕЗНАЙОМЕЦЬ: Гей, тримайте дверi!",
-	intro_hospital75 = "ВУЛЬФ (шведською):",
+	intro_hospital75 = "WOLF (in Swedish): Finns det hjärterum, finns det stjärterum...",
 	intro_hospital76 = "В що, чорт забирай, ви двоэ так вдягнулися...?",
 	intro_hospital77 = "Це Хелловiн!?",
 	intro_hospital78 = "ВУЛЬФ: Ей, Бейн, чудовий брифiнг. Я нi хрiна не почув.",
