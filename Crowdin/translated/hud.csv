@@ -4712,7 +4712,7 @@
 "hud_int_talk_vlad","Натисніть $BTN_INTERACT; щоб поговорити з Владі"
 "hud_int_talk_wild","Натисніть $BTN_INTERACT; щоб поговорити з Раст"
 "hud_int_talk_wolf","Натисніть $BTN_INTERACT; щоб поговорити з Вовк"
-"hud_int_tape_loop","Утримуйте $BTN_INTERACT; щоб застосувати петлю камери"
+"hud_int_tape_loop","Утримуйте $BTN_INTERACT; щоб зациклити зображення на камері"
 "hud_int_timelock_numpad","Натисніть $BTN_INTERACT; щоб розпочати тайм-лок"
 "hud_int_timelock_panel","Натисніть $BTN_INTERACT; щоб використати картку"
 "hud_int_timelock_panel_no_keycard","Вам потрібна картка, щоб відкрити сховище"
