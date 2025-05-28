@@ -1,5 +1,5 @@
 Hooks:PostHook(LevelLoadingScreenGuiScript,"init","UALocalizationLevelLoading",function(self)
-    local title_text = "В ПРОЦЕСІ"
+    local title_text = "ЗАЧЕКАЙТЕ"
 	if self._level_title_text then
 		self._level_title_text:set_text(title_text)
 		local _, _, w, h = self._level_title_text:text_rect()
