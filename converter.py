@@ -13,9 +13,7 @@ def csv_to_lua(csv_file, lua_file):
                     key = row[0].strip().strip('"')
                     value = row[1].strip()
 
-                    value = value.replace('"', "''")
-
-                    value = value.replace('і', 'i').replace('ї', 'ï').replace('є', 'э').replace('ґ', 'ъ')
+                    value = value.replace('"', "''").replace('і', 'i').replace('ї', 'ï').replace('є', 'э').replace('ґ', 'ъ').replace('\n', '')
 
                     lua_f.write(f'	{key} = "{value}",\n')
             lua_f.write("	}")
