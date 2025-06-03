@@ -14,7 +14,7 @@
         <loc file="text/debug.lua"/>
         <loc file="text/savefile.lua"/>
         <loc file="text/system_text.lua"/>
-        <loc file="text/vr_text.lua"/>
+        <loc file="text/vr.lua"/>
         <loc file="text/systemmenu.lua"/>
         <loc file="text/blackmarket.lua"/>
         <loc file="text/challenges.lua"/>
@@ -32,7 +32,7 @@
         <loc file="text/debug.lua"/>
         <loc file="text/savefile.lua"/>
         <loc file="text/system_text.lua"/>
-        <loc file="text/vr_text.lua"/>
+        <loc file="text/vr.lua"/>
         <loc file="text/systemmenu.lua"/>
         <loc file="text/blackmarket.lua"/>
         <loc file="text/challenges.lua"/>
