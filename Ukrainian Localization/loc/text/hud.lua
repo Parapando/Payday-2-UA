@@ -3886,7 +3886,7 @@ return {
 	hud_hint_alarm_cop = "Сигнал тривоги: Оператор служби безпеки виявив пошкоджену камеру",
 	hud_hint_alarm_glass = "Сигнал тривоги: Скло пiд сигнализацiэю розбите",
 	hud_hint_alarm_pager_bluff_failed = "Сигнал тривоги: Оператор не повiрив у вiдповiдь на пейджер",
-	hud_hint_alarm_pager_hang_up = "Сигнал тривоги: Винуватець перервав виклик",
+	hud_hint_alarm_pager_hang_up = "Сигнал тривоги: Грабiжник перервав виклик",
 	hud_hint_alarm_pager_not_answered = "Сигнал тривоги: Оператор не вiдповiв на виклик",
 	hud_hint_alert_explosion = "Сигнал тривоги: Вiдбувся вибух",
 	hud_hint_bipod_nomount = "Немаэ пiдхожоï поверхнi для встановлення станкового гранатомета",

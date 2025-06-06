@@ -6032,7 +6032,7 @@ return {
 	menu_reset_statistics = "СКИДАННЯ СТАТИСТИКИ",
 	menu_resolution = "РОЗДІЛЬНІСТЬ",
 	menu_resolution_help = "Налаштуйте рiвень деталiзацiï вашого дисплея.",
-	menu_restart_game = "ПЕРЕЗАПУСТИТИ ПОГРАБУВАННЯ",
+	menu_restart_game = "ПЕРЕЗАВАНТАЖИТИ ГРУ",
 	menu_restart_game_help = "Перезапустити завдання.",
 	menu_restart_level = "Перезапустити",
 	menu_restart_stage = "Повторити",
