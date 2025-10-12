@@ -5022,7 +5022,7 @@ return {
 	bm_wp_sterling_s_nostock = "Без приклада",
 	bm_wp_sterling_s_solid = "Цiлiсний приклад",
 	bm_wp_striker_b_long = "Довгий Ствол",
-	bm_wp_striker_b_long_achievment = "Вбити $progress; бiльше Бульдозерs будь-яким дробовиком з боэприпасами типу 000 Buckshot",
+	bm_wp_striker_b_long_achievment = "Вбити $progress; бiльше Бульдозерiв будь-яким дробовиком з боэприпасами типу 000 Buckshot",
 	bm_wp_striker_b_suppressed = "Глушник",
 	bm_wp_striker_b_suppressed_achievment = "Виконайте завдання NO Пограбування FOR OLD MEN, щоб вiдкрити!",
 	bm_wp_sub2000_0_front = "Переднiй прицiл",
