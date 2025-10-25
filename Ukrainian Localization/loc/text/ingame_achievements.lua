@@ -771,7 +771,7 @@ return {
 	achievement_cow_11 = "Зроблено за 60 секунд",
 	achievement_cow_11_additional = "Для цього досягнення необхiдно володiти DLC Бомба Пограбуванняs.",
 	achievement_cow_11_desc = "У завданнi Бомба: Порт вiдкрийте ворiтний шлюз за 60 секунд за допомогою карток.",
-	achievement_cow_11_unlock = "Unlocks the ''Custom Slide'' for the LEO pistol.",
+	achievement_cow_11_unlock = "Розблоковуэ «спецiальний затвор» для пiстолета LEO.",
 	achievement_cow_1_additional = "Це досягнення вимагаэ, щоб ви грали вiд лобi до кiнця пограбування.",
 	achievement_cow_1_desc = "Виконайте завдання Бомба: Лiс на нормальнiй складностi або вище.",
 	achievement_cow_2 = "Сосна в задницi",

@@ -1471,7 +1471,7 @@ return {
 	hud_heist_arena_secroom_mission2 = "Сигналiзацiя запустила систему безпеки сховищ. Зламати комп'ютер безпеки, щоб вiдiмкнути цi замки.",
 	hud_heist_arena_secroom_mission2_hl = "Подолати систему безпеки",
 	hud_heist_bex1 = "Потрапити всередину банку",
-	hud_heist_bex10 = "Assemble ''The Beast'' by the vault.",
+	hud_heist_bex10 = "Зберiть «Звiра» бiля сховища",
 	hud_heist_bex10_hl = "Зiбрати дрил",
 	hud_heist_bex11 = "Захистити дрил вiд полiцейських, що прибувають.",
 	hud_heist_bex11_hl = "Захистити дрил",
