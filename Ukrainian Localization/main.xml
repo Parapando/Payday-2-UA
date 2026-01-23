@@ -1,9 +1,4 @@
 <mod name="UALoc" global_key="UALoc" author="Parapando">
-    <ScriptMods>
-       <mod file="UALocScriptData.xml" type="custom_xml" target_file="gamedata/menus/start_menu" target_type="menu">
-            <options merge_mode="script_merge"/>
-       </mod>
-    </ScriptMods>
 
     <Localization directory="loc">
       <group language="ukrainian">
@@ -46,3 +41,4 @@
 
 	<AddFiles file="add_UALoc.xml"/>
 </mod>
+
