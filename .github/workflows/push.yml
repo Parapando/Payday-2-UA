@@ -1,0 +1,26 @@
+name: Auto Push
+
+on:
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to push
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # allows pushing
+
+      - name: Make a trivial change
+        run: |
+          echo "trigger push $(date)" >> push.txt
+          git add push.txt
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -m "Trigger push for release workflow" || echo "No changes to commit"
+          git push
