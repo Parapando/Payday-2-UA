@@ -1,4 +1,6 @@
-return {
+Hooks:Add("LocalizationManagerPostInit", "UK_blackmarket", function(loc) 
+	LocalizationManager:add_localized_strings({
+
 	--10de631213ebea91 = "Набiр Lawless Tailor доступний як частина набору ''Повстання'' або окремо.",
 	--11544ac5b3723fb7 = "Арес",
 	--117a857285967a60 = "Як i бiльшiсть iз нас, Роберт ЛеРой Паркер не мав права обирати iм'я при народженнi. Але коли вiн вирiшив покiнчити зi своïм старим життям i стати злочинцем, вiн спалив свою стару iдентичнiсть разом з ним. Натхненний часом, коли вiн був учнем м'ясника, i пам'яттю про свого улюбленого наставника Майка Кессiдi, вiн створив собi нове прiзвисько. Нiхто не говорить про Роберта ЛеРоя Паркера, але Буч Кессiдi... Це iм'я легенди.",
@@ -6283,4 +6285,6 @@ return {
 	steam_inventory_collection_pack_01 = "Колекцiя Вовка",
 	steam_inventory_collection_same_01 = "Колекцiя спiльноти 1",
 	steam_inventory_collection_smosh_01 = "Колекцiя спiльноти 2",
-	}
+	
+		})
+end)
