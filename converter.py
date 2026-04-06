@@ -7,7 +7,7 @@ def csv_to_lua(csv_file, lua_file):
         reader = csv.reader(f, delimiter=',')
 
         with open(lua_file, 'w', encoding='utf-8') as lua_f:
-            lua_f.write('Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)\n\tLocalizationManager:add_localized_strings({\n\n')
+            lua_f.write("return {\n")
             for row in reader:
                 if row and len(row) > 1:
                     key = row[0].strip().strip('"')
@@ -16,7 +16,7 @@ def csv_to_lua(csv_file, lua_file):
                     value = value.replace('"', "''").replace('і', 'i').replace('ї', 'ï').replace('є', 'э').replace('ґ', 'ъ').replace('\n', '')
 
                     lua_f.write(f'	{key} = "{value}",\n')
-            lua_f.write('\n\t\t})\nend)')
+            lua_f.write("	}")
 
 
 def convert_and_move_files(input_directory, output_directory):
