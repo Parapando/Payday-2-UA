@@ -1,6 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
-	LocalizationManager:add_localized_strings({
-
+return {
 	--110b236af7284480 = "Натиснiть $BTN_INTERACT щоб проаналiзувати зразок нафти",
 	--1226059b3c479470 = "Викрадiть Нео-2",
 	--13a1e474730817c8 = "Вiтрина пiд замком. Зламайте захиснi жалюзi пилкою.",
@@ -5523,6 +5521,4 @@ Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	victory_total_kills = "КІЛЬКІСТЬ УБИВСТВ:",
 	victory_total_specials_kills = "КІЛЬКІСТЬ УБИВСТВ СПЕЦПРИЗНАЧЕНЦІВ:",
 	victory_xp_postfix = "K",
-
-		})
-end)
+	}

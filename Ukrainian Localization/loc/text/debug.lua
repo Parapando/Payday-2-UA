@@ -1,6 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
-	LocalizationManager:add_localized_strings({
-
+return {
 	c262f1ba12076b59 = "Вам потрiбна USB-флешка",
 	debug_ak47 = "Автомат АК",
 	debug_ak47_short = "АК",
@@ -300,6 +298,4 @@ Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	debug_wskn_yellow = "Жовтий",
 	wp_uc_power_back_up = "Вiдновiть електропостачання!",
 	wp_uc_saw_limo = "Використайте Пилу, щоб вiдкрити Лiмо!",
-
-		})
-end)
+	}

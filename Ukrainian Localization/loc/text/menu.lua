@@ -1,6 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
-	LocalizationManager:add_localized_strings({
-
+return {
 	--101eced83d19b81f = "Захiд",
 	--12946e2884444e5b = "Рiвень C",
 	--129f726e7e83044a = "Прибуття човна",
@@ -7186,6 +7184,4 @@ Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	victory_stage_cash_summary_name_vehicles = "Ви також втекли з $vehicle_amount; транспортним засобом(ами) загальною вартiстю $vehicle_cash;.",
 	victory_stage_safehouse_summary = "Ви заробили $amount; Континентальних Монет на цьому завданнi.",
 	wild_desc = "Нацiональнiсть: Американець$NL;Вiк: 61$NL;$NL;Щоб зiрвати дiяльнiсть Overkill MC, менi потрiбна була людина зсередини, i цiэю людиною став Том «Раст» Бiшоп. За допомогою Слона ми запропонували Расту шанс заробити по-справжньому, i Раст не забарився з вiдповiддю. Вiн убив своïх колишнiх братiв-мотоциклiстiв, щоб засвiдчити свою нову лояльнiсть до мене, i на цьому угода була укладена. Тепер, коли Руст на нашому боцi, ми можемо перейти до мого наступного плану.",
-
-		})
-end)
+	}
