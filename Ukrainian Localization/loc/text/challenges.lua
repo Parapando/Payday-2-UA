@@ -1,4 +1,6 @@
-return {
+Hooks:Add("LocalizationManagerPostInit", "UK_challenges", function(loc) 
+	LocalizationManager:add_localized_strings({
+
 	ch_aint_afraid = "Отримуэте рiвень у деревi Штурмовика пiд час штурму.",
 	ch_aint_afraid_hl = "Я бiльше не боюся",
 	ch_ak47_head_shots = "Використовуючи АК, переможiть ##ak47_law_head_shot## правоохоронцiв влучним пострiлом в голову. Використання ближнього бою не зараховуэться до цього виклику!",
@@ -497,4 +499,6 @@ return {
 	ch_tris_tripmine_hl = "Троэ пiшли на витiвку",
 	ch_windowlicker = "Вбийте правоохоронця, який встановлюэ C4 у ''ПЕРШИЙ СВІТОВИЙ БАНК'' на Важкiй складностi або вище. Щоб виконати це завдання, ви повиннi були грати пограбування з самого початку.",
 	ch_windowlicker_hl = "Вiкнач",
-	}
+	
+		})
+end)
