@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_systemmenu", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--12f00d0145597481 = "Хелловiн",
@@ -509,6 +509,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_systemmenu", function(loc)
 	sm_moving_up_desc_old = "Гаразд, я сказав вам ранiше, що люди спостерiгатимуть за вами. Один хлопець, зокрема, зацiкавлений у вас. Можливо, у мене буде щось велике з цим новим контактом, але робота, яку вiн маэ на увазi, буде складною, i ви повиннi пiдготуватися до неï. Повернiться, коли ви трохи бiльше пiдготуэтесь, i я налаштую вас.",
 	sm_moving_up_name = "Пiдвищення у свiтi",
 	sm_moving_up_obj = "Досягнiть рiвня репутацiï 25 або виконайте навчальний посiбник з stealth.",
-	
+
 		})
 end)

@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_challenges", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	ch_aint_afraid = "Отримуэте рiвень у деревi Штурмовика пiд час штурму.",
@@ -499,6 +499,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_challenges", function(loc)
 	ch_tris_tripmine_hl = "Троэ пiшли на витiвку",
 	ch_windowlicker = "Вбийте правоохоронця, який встановлюэ C4 у ''ПЕРШИЙ СВІТОВИЙ БАНК'' на Важкiй складностi або вище. Щоб виконати це завдання, ви повиннi були грати пограбування з самого початку.",
 	ch_windowlicker_hl = "Вiкнач",
-	
+
 		})
 end)

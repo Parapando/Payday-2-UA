@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_heist", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--164552ea90517a40 = "Повстання",
@@ -523,6 +523,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_heist", function(loc)
 	rb14_mad_outro_01_01 = "Ми зробили це, хлопцi! Ми зупинили того бiловолосого виродка вiд отримання даних, яких вiн прагнув. Тож що ти скажеш? Що ти скажеш? Ми спалимо це, так? Спалимо це прямо до чортового пекла!",
 	russian_desc_codex = "Даллас досвiдчений, хитрий та методичний. Вiн бездоганно працюэ в складi команди, однак вiн не соцiальний. Вiн бездоганно виконуэ свою частину плану й очiкуэ того ж вiд iнших.",
 	spanish_desc_codex = "Бувши пiдлiтком, Чейнс постiйно потрапляв у неприэмностi. Пiсля рокiв перебування мiж прийомними родинами та виховними установами вiн зрештою опинився в армiï. Там вiн став вiдмiнним солдатом.",
-	
+
 		})
 end)

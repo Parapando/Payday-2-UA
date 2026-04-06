@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_vr", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	bm_loadout_rifle_american = "Штурмова гвинтiвка США",
@@ -221,6 +221,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_vr", function(loc)
 	menu_warp_health_init_desc = "Пiсля ривка гравець вiдновить вiд ##$min;## до максимуму ##$max;## здоров'я залежно вiд витраченоï витривалостi. Можна вiдновити максимум ##$amount;## здоров'я кожнi ##$time;## секунд.",
 	vr_belt_grip = "Затискайте, щоб обрати",
 	vr_reloading = "Перезаряджання",
-	
+
 		})
 end)

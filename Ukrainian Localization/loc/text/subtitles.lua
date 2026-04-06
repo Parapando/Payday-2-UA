@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_subtitles", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--101d67379d0e13a4 = "Якщо ми хочемо код до дисплея Neo-2, нам слiд перевiрити офiс керiвника вiддiлу маркетингу. За цю подiю вiдповiдаэ саме вона.",
@@ -23980,6 +23980,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_subtitles", function(loc)
 	zep_ca1_05_03 = "Ваш вантаж опускаэться. Бажаэмо гарноï вечiрки. Ми ще трохи почекаэмо тут. На цьому все!",
 	zep_ca1_05_04 = "Sky Express вже на мiсцi i опускаэ вантаж. Ми почекаэмо тут, поки ви закiнчите. Прощавайте!",
 	zep_ca1_05_05 = "Гаразд, ваш вантаж вже спускаэться. Sky Express залишиться тут, поки ви не закiнчите. Успiхiв!",
-	
+
 		})
 end)

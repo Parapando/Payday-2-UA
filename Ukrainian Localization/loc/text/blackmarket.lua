@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_blackmarket", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--10de631213ebea91 = "Набiр Lawless Tailor доступний як частина набору ''Повстання'' або окремо.",
@@ -6285,6 +6285,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_blackmarket", function(loc)
 	steam_inventory_collection_pack_01 = "Колекцiя Вовка",
 	steam_inventory_collection_same_01 = "Колекцiя спiльноти 1",
 	steam_inventory_collection_smosh_01 = "Колекцiя спiльноти 2",
-	
+
 		})
 end)

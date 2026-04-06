@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_hud", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--110b236af7284480 = "Натиснiть $BTN_INTERACT щоб проаналiзувати зразок нафти",
@@ -5523,6 +5523,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_hud", function(loc)
 	victory_total_kills = "КІЛЬКІСТЬ УБИВСТВ:",
 	victory_total_specials_kills = "КІЛЬКІСТЬ УБИВСТВ СПЕЦПРИЗНАЧЕНЦІВ:",
 	victory_xp_postfix = "K",
-	
+
 		})
 end)

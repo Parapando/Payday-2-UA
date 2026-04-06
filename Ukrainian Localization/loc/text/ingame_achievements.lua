@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_ingame_achievements", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	--128764cadb1a8362 = "Для отримання цього досягнення необхiдно спочатку отримати досягнення «Texas Treasures».",
@@ -3924,6 +3924,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_ingame_achievements", function(loc)
 	f2ada86e6da4667e = "Що буде, те й буде",
 	f322ad5ca13edb3f = "У завданнi ''Особняк Скайфайза'' вбийте боса за допомогою ракетноï установки Коммандо 101 на складностi OVERKILL i вище.",
 	f9d624d7d37c0a9c = "У завданнi ''Сире пробудження'' використайте креслення, щоб отримати доступ до пароля до найцiннiшого активу Ґабрiеля.",
-	
+
 		})
 end)

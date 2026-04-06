@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc) 
+Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	LocalizationManager:add_localized_strings({
 
 	ammo_bag = "Сумку з боэприпасами можна розмiстити на землi, щоб ви та ваша команда могли нею скористатися. $NL;Боэприпаси для всiх.",
@@ -666,6 +666,6 @@ Hooks:Add("LocalizationManagerPostInit", "UK_atmospheric_text", function(loc)
 	trip_mine = "Мiни-розтяжки можна встановити будь-де, i вони активуються за допомогою лазерного променя''.$NL; Маэте проблеми iз захистом тилу або знищенням спецпiдроздiлiв? Це може бути вирiшенням.",
 	trip_mine_damage = "Це покращення збiльшуэ вибухову силу та радiус вибуху ваших мiн-розтяжок.",
 	trip_mine_quantity = "Це покращення додаэ додатковi мiни-розтяжки до iнвентарю.$NL;Кiлька додаткових мiн пiдвищать вашi шанси.",
-	
+
 		})
 end)
