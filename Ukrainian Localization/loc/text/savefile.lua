@@ -1,4 +1,6 @@
-return {
+Hooks:Add("LocalizationManagerPostInit", "UK_savefile", function(loc) 
+	LocalizationManager:add_localized_strings({
+
 	savefile_autosave = "$TEXT_WITH_DATE; - АВТОЗБЕРЕЖЕННЯ",
 	savefile_empty = "[Новий Файл Збереження]",
 	savefile_loading = "Завантаження...",
@@ -8,4 +10,6 @@ return {
 	savefile_saving = "Збереження...",
 	savefile_setting = "Ігрові налаштування: Потрібна Версія $VERSION; або пізніша.",
 	savefile_setting_description = "Специфічні ігрові налаштування користувача.",
-	}
+	
+		})
+end)
