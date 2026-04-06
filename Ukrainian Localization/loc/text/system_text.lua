@@ -1,6 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "UK_system_text", function(loc) 
-	LocalizationManager:add_localized_strings({
-
+return {
 	wp_ap_escape = "Втеча!",
 	wp_bank_escape = "Втеча!",
 	wp_bridge_escape = "Втеча!",
@@ -26,6 +24,4 @@ Hooks:Add("LocalizationManagerPostInit", "UK_system_text", function(loc)
 	wp_xsub_waterhose = "Потягніть за шланг",
 	wp_xsub_watertap = "Відкрий кран",
 	wp_xsub_watervalve = "Відкрийте вентиль",
-	
-		})
-end)
+	}
