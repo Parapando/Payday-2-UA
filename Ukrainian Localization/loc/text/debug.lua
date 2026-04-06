@@ -1,4 +1,6 @@
-return {
+Hooks:Add("LocalizationManagerPostInit", "UK_debug", function(loc) 
+	LocalizationManager:add_localized_strings({
+
 	c262f1ba12076b59 = "Вам потрiбна USB-флешка",
 	debug_ak47 = "Автомат АК",
 	debug_ak47_short = "АК",
@@ -298,4 +300,6 @@ return {
 	debug_wskn_yellow = "Жовтий",
 	wp_uc_power_back_up = "Вiдновiть електропостачання!",
 	wp_uc_saw_limo = "Використайте Пилу, щоб вiдкрити Лiмо!",
-	}
+	
+		})
+end)
