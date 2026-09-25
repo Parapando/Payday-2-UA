@@ -32,6 +32,6 @@ def convert_and_move_files(input_directory, output_directory):
 
 
 input_dir = 'Crowdin/translated'
-output_dir = 'Ukrainian Localization/loc/text'
+output_dir = 'Ukrainian Localization/loc'
 
 convert_and_move_files(input_dir, output_dir)
