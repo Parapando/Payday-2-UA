@@ -3,42 +3,42 @@
     <Localization directory="loc">
       <group language="ukrainian">
 
-        <loc file="text/subtitles.lua"/>
-        <loc file="text/menu.lua"/>
-        <loc file="text/atmospheric_text.lua"/>
-        <loc file="text/debug.lua"/>
-        <loc file="text/savefile.lua"/>
-        <loc file="text/system_text.lua"/>
-        <loc file="text/vr.lua"/>
-        <loc file="text/systemmenu.lua"/>
-        <loc file="text/blackmarket.lua"/>
-        <loc file="text/challenges.lua"/>
-        <loc file="text/heist.lua"/>
-        <loc file="text/hud.lua"/>
-        <loc file="text/ingame_achievements.lua"/>
+        <loc file="subtitles.lua"/>
+        <loc file="menu.lua"/>
+        <loc file="atmospheric_text.lua"/>
+        <loc file="debug.lua"/>
+        <loc file="savefile.lua"/>
+        <loc file="system_text.lua"/>
+        <loc file="vr.lua"/>
+        <loc file="systemmenu.lua"/>
+        <loc file="blackmarket.lua"/>
+        <loc file="challenges.lua"/>
+        <loc file="heist.lua"/>
+        <loc file="hud.lua"/>
+        <loc file="ingame_achievements.lua"/>
 
       </group>
 
       <group language="english">
 
-        <loc file="text/subtitles.lua"/>
-        <loc file="text/menu.lua"/>
-        <loc file="text/atmospheric_text.lua"/>
-        <loc file="text/debug.lua"/>
-        <loc file="text/savefile.lua"/>
-        <loc file="text/system_text.lua"/>
-        <loc file="text/vr.lua"/>
-        <loc file="text/systemmenu.lua"/>
-        <loc file="text/blackmarket.lua"/>
-        <loc file="text/challenges.lua"/>
-        <loc file="text/heist.lua"/>
-        <loc file="text/hud.lua"/>
-        <loc file="text/ingame_achievements.lua"/>
+        <loc file="subtitles.lua"/>
+        <loc file="menu.lua"/>
+        <loc file="atmospheric_text.lua"/>
+        <loc file="debug.lua"/>
+        <loc file="savefile.lua"/>
+        <loc file="system_text.lua"/>
+        <loc file="vr.lua"/>
+        <loc file="systemmenu.lua"/>
+        <loc file="blackmarket.lua"/>
+        <loc file="challenges.lua"/>
+        <loc file="heist.lua"/>
+        <loc file="hud.lua"/>
+        <loc file="ingame_achievements.lua"/>
 
       </group>
     </Localization>
 
 
-	<AddFiles file="add_UALoc.xml"/>
+	<AddFiles file="UALoc.xml"/>
 </mod>
 
