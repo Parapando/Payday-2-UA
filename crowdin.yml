@@ -1,3 +1,6 @@
+commit_message: "New translations %original_file_name%"
+append_commit_message: false
+
 files:
   - source: /Crowdin/source/
     translation: /Crowdin/translated/%original_file_name%
